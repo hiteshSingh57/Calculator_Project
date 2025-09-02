@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin:0%;
+  padding: 0%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-image: url(free-vector.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator{
+  background-image: url(istockphoto.jpeg); /* Default blue */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.display{
+  background-color: #000000;
+  color: #13cc02;
+  font-size: 2.5rem;
+  text-align: right;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+button{
+  background-color: rgb(143, 142, 142);
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.02rem;
+  padding: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover{
+background-color: #3b3c3d;  
+color: rgb(241, 231, 231);
+}
+
+.button_operator{
+  background-color: #8b5f50;
+}
+
+.button_equal{
+  background-color: rgb(221, 171, 34);
+}
+
+.button_Enter{
+  background-color: #cc4214;
+}
+
+.button_clear{
+  background-color: #f01b1b;
+}
+
+.button_clear:hover{
+  background-color: #f01b1b;
+}
